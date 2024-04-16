@@ -1,0 +1,52 @@
+.resident{
+    width: 250px;
+    border-radius: 20px;
+    overflow: hidden;
+    /* border: 1px solid white; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #092226;
+}
+.resident__img{
+    position: relative;
+}
+.resident__status{
+    display: flex;
+    gap: 10px;
+    position: absolute;
+    top: 10%;
+    background-color: #092226;
+    padding: 5px 15px;
+    align-items: center;
+    border-radius: 0 5px 5px 0;
+}
+.resident__circle{
+    width: 15px;
+    /* height: 15px; */
+    aspect-ratio: 1;
+    background-color: gray;
+    border-radius: 50%;
+}
+.Alive{
+    background-color: #04a105;
+}
+.Dead{
+    background-color: red;
+}
+.resident__name{
+    margin-bottom: 20px;
+}
+.resident__list{
+    padding-bottom: 20px;
+    width: 80%;
+}
+.resident__item{
+    /* font-size: 14px; */
+    display: flex;
+    flex-direction: column;
+}
+.resident__item span:first-child{
+    padding-left: 20px;
+    color: gray;
+}
